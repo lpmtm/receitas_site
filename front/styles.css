@@ -4,7 +4,7 @@
 /* Estiliza o corpo da página */
 body {
     font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
-    background-color: rgb(187, 187, 245); /* Cor de fundo da página */
+    background-color: rgb(124, 63, 56); /* Cor de fundo da página */
     display: flex; /* Usa Flexbox para layout */
     flex-direction: column; /* Alinha os itens na vertical */
     align-items: center; /* Centraliza os itens horizontalmente */
@@ -17,7 +17,13 @@ body {
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #333333; /* Cor do texto */
+    color: #141313; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.2rem; /* Espaçamento entre letras */
+}
+h2 {
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #141313; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     letter-spacing: 0.2rem; /* Espaçamento entre letras */
 }
@@ -37,7 +43,7 @@ section input {
     padding: 1rem; /* Espaçamento interno */
     border-radius: 1.5rem; /* Borda arredondada */
     margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
-    color: #1f283a; /* Cor do texto */
+    color: #120404; /* Cor do texto */
     font-size: 1rem; /* Tamanho da fonte */
     box-sizing: border-box; /* Inclui padding e border na largura total */
 }
@@ -47,7 +53,7 @@ section button {
     padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
     border: none; /* Remove a borda padrão */
     border-radius: 1.5rem; /* Borda arredondada */
-    background-color: #152a3f; /* Cor de fundo do botão */
+    background-color: #721414; /* Cor de fundo do botão */
     color: #cdecfc; /* Cor do texto do botão */
     font-size: 1rem; /* Tamanho da fonte */
     cursor: pointer; /* Muda o cursor para indicar que é clicável */
@@ -55,7 +61,7 @@ section button {
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #30475E; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #822020; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
 
@@ -103,8 +109,8 @@ section button:hover {
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #9180ad85; /* Cor de fundo do rodapé */
-    color: #574b66; /* Cor do texto */
+    background-color: rgb(142, 82, 76); /* Cor de fundo do rodapé */
+    color: #040305; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */

@@ -53,7 +53,7 @@ function pesquisar() {
 
     // Exibe a mensagem se não houver resultados
     if (!resultados) {
-        resultados = "Nenhuma informação encontrada! O livro digitado não consta no banco de dados. :( Tente buscar por algo diferente.";
+        resultados = "A receita digitada ainda não consta no nosso site:(";
     }
 
     // Insere os resultados na seção de resultados
